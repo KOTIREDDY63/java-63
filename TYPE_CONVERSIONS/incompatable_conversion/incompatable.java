@@ -7,6 +7,6 @@ public class incompatable {
          //String code =(String) zip; // cannot convert int to String directly
          String code =(String.valueOf(zip));
          System.out.println("Orginal value :"+ zip);
-            System.out.println("Converted value :"+ code);
+        System.out.println("Converted value :"+ code);
     }
 }
