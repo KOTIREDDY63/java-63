@@ -22,6 +22,12 @@ public class loops {
         // while (true) {
         //     System.out.println(8);   
         // }
-        
+        //do while loop
+        // This loop will run at least once, even if the condition is false
+        int i = 0;
+        do {
+            System.out.println("Hello");
+            i++;
+        } while (i < 5); // This will run the loop until i is less than 5
     }
 }
